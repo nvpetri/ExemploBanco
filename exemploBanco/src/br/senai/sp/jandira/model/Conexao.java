@@ -10,7 +10,7 @@ public class Conexao {
 
     public Connection conexao;
     public Conexao(){
-        this.servidor = "127.0.0.1";
+        this.servidor = "localhost";
         this.banco = "db_empresa";
         this.user = "root";
         this.senha = "bcd127";
